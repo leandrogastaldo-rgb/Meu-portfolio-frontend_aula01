@@ -21,7 +21,7 @@ p {
 
 /* 4. Criando um cartão simples para a lista */
 ul {
-    background-color: #ffffff; /* Fundo branco para a lista */
+    background-color: hsl(0, 0%, 100%); /* Fundo branco para a lista */
     padding: 20px;
     width: 300px;              /* Largura da caixa */
     margin: 0 auto;            /* Centraliza a caixa da lista na tela */
