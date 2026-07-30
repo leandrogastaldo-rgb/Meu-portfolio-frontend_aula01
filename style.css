@@ -19,5 +19,10 @@ p {
     color: #475569;            /* Tom de cinza para o texto */
 }
 
-
-
+/* 4. Criando um cartão simples para a lista */
+ul {
+    background-color: #ffffff; /* Fundo branco para a lista */
+    padding: 20px;
+    width: 300px;              /* Largura da caixa */
+    margin: 0 auto;            /* Centraliza a caixa da lista na tela */
+}
