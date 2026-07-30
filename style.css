@@ -8,7 +8,7 @@ body {
 /* 2. Estilizando e centralizando o Título */
 h1 {
     background-color: #1e293b; /* Fundo azul escuro */
-    color: #ffffff;            /* Texto branco */
+    color: hsl(0, 0%, 100%);            /* Texto branco */
     text-align: center;        /* Alinhamento ao centro */
     padding: 20px;             /* Espaço interno para o texto respirar */
 }
