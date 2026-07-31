@@ -26,3 +26,31 @@ ul {
     width: 300px;              /* Largura da caixa */
     margin: 0 auto;            /* Centraliza a caixa da lista na tela */
 }
+
+/* ==========================================
+   ESTILIZAÇÃO DE IMAGENS
+   ========================================== */
+
+/* 1. ESTILO DO BANNER (Capa do topo) */
+.img-banner {
+    width: 100%;             /* Ocupa toda a largura disponível */
+    height: 180px;           /* Define uma altura fixa para a capa */
+    object-fit: cover;       /* CORTE INTELIGENTE: Impede que a imagem fique esticada ou esmagada! */
+    border-radius: 8px 8px 0 0; /* Arredonda apenas os cantos superiores */
+}
+
+/* 2. ESTILO DA FOTO DE PERFIL */
+.img-perfil {
+    width: 130px;            /* Largura exata da foto */
+    height: 130px;           /* Altura igual à largura (para ser um quadrado perfeito) */
+    object-fit: cover;       /* Ajusta a foto sem distorcer o rosto */
+    border-radius: 50%;      /* O TRUQUE: Transformando a foto quadrada em um círculo perfeito! */
+    border: 4px solid #ffffff; /* Borda branca estilizada em volta da foto */
+    margin-top: -65px;       /* Sobrepõe a foto levemente por cima do banner */
+}
+
+/* Centralizando as informações do perfil */
+.perfil-container {
+    text-align: center;
+    padding: 0 20px 20px 20px;
+}
