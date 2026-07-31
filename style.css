@@ -1,56 +1,67 @@
-/* 1. Mudando o fundo da página inteira */
+/* Fundo da página */
 body {
-    background-color: #e2e8f0; /* Cor de fundo cinza claro */
+    background-color: #e2e8f0;
     font-family: Arial, sans-serif;
-    color: #333333; /* Cor do texto geral */
+    color: #333;
+    margin: 0;
 }
 
-/* 2. Estilizando e centralizando o Título */
-h1 {
-    background-color: #1e293b; /* Fundo azul escuro */
-    color: hsl(0, 0%, 100%);            /* Texto branco */
-    text-align: center;        /* Alinhamento ao centro */
-    padding: 20px;             /* Espaço interno para o texto respirar */
+/* Cabeçalho */
+.cabecalho {
+    position: relative;
 }
 
-/* 3. Estilizando os Parágrafos */
-p {
-    text-align: center;        /* Texto centralizado */
-    color: #475569;            /* Tom de cinza para o texto */
-}
-
-/* 4. Criando um cartão simples para a lista */
-ul {
-    background-color: hsl(0, 0%, 100%); /* Fundo branco para a lista */
-    padding: 20px;
-    width: 300px;              /* Largura da caixa */
-    margin: 0 auto;            /* Centraliza a caixa da lista na tela */
-}
-
-/* ==========================================
-   ESTILIZAÇÃO DE IMAGENS
-   ========================================== */
-
-/* 1. ESTILO DO BANNER (Capa do topo) */
+/* Banner */
 .img-banner {
-    width: 100%;             /* Ocupa toda a largura disponível */
-    height: 180px;           /* Define uma altura fixa para a capa */
-    object-fit: cover;       /* CORTE INTELIGENTE: Impede que a imagem fique esticada ou esmagada! */
-    border-radius: 8px 8px 0 0; /* Arredonda apenas os cantos superiores */
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
-/* 2. ESTILO DA FOTO DE PERFIL */
-.img-perfil {
-    width: 130px;            /* Largura exata da foto */
-    height: 130px;           /* Altura igual à largura (para ser um quadrado perfeito) */
-    object-fit: cover;       /* Ajusta a foto sem distorcer o rosto */
-    border-radius: 50%;      /* O TRUQUE: Transformando a foto quadrada em um círculo perfeito! */
-    border: 4px solid #ffffff; /* Borda branca estilizada em volta da foto */
-    margin-top: -65px;       /* Sobrepõe a foto levemente por cima do banner */
-}
-
-/* Centralizando as informações do perfil */
+/* Área da foto */
 .perfil-container {
     text-align: center;
-    padding: 0 20px 20px 20px;
+    margin-top: -65px;
+}
+
+/* Foto de perfil */
+.img-perfil {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+
+/* Título */
+h1 {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* Parágrafo */
+p {
+    text-align: center;
+    color: #475569;
+    font-size: 18px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Lista */
+ul {
+    background-color: white;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+li {
+    margin: 10px 0;
 }
